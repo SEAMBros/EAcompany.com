@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EA Enterprises Business</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  <style>
+    body {
+      background-color: #0b0b0b;
+      color: #f5f5f5;
+    }
+    nav, footer {
+      background: #111;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      padding: 6rem 2rem;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-top: 1rem;
+    }
+    .grid img {
+      border-radius: 8px;
+    }
+    section {
+      padding: 4rem 0;
+    }
+    .ea-logo {
+      max-width: 180px;
+      margin-bottom: 1rem;
+    }
+    .partnership-logo {
+      max-width: 220px;
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+    }
+    footer a {
+      color: #50b5ff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>EA Enterprises</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#cases">Case Studies</a></li>
+      <li><a href="#partnerships">Partnerships</a></li>
+      <li><a href="#contact" role="button">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <!-- EA Enterprises Logo -->
+    <img src="ea-logo.png" alt="EA Enterprises Logo" class="ea-logo" />
+    <h1>Engineering Tomorrow’s Solutions Today</h1>
+    <p>EA Enterprises blends hardware, software, and AI to architect the future.</p>
+    <a href="#contact" role="button">Partner With Us</a>
+  </header>
+
+  <main class="container">
+
+    <!-- About -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>EA Enterprises is a future-focused technology company at the intersection of hardware, artificial intelligence, and consulting. We partner with innovators to deliver sustainable and powerful solutions that redefine industries.</p>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <article>
+          <h3>Hardware Procurement</h3>
+          <p>Reliable sourcing of next-gen computer components tailored for enterprise use.</p>
+        </article>
+        <article>
+          <h3>AI Integration</h3>
+          <p>Deploying advanced AI models seamlessly into existing infrastructure.</p>
+        </article>
+        <article>
+          <h3>IT Consulting</h3>
+          <p>End-to-end advisory for businesses seeking digital transformation.</p>
+        </article>
+        <article>
+          <h3>Custom R&D</h3>
+          <p>Bespoke research and development for innovative future-facing projects.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section id="cases">
+      <h2>Case Studies</h2>
+      <div class="grid">
+        <article>
+          <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tech Infrastructure" />
+          <h3>TechCorp</h3>
+          <p>Improved infrastructure efficiency by 40% through AI-enhanced automation.</p>
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1526378722484-cc9a7c9f1b7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cloud Network" />
+          <h3>CloudNet</h3>
+          <p>Boosted enterprise productivity with custom AI-powered collaboration tools.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Partnerships -->
+    <section id="partnerships">
+      <h2>Partnerships</h2>
+      <p>We work with industry leaders to build transformative solutions. Together, we innovate beyond boundaries.</p>
+      <figure>
+        <img src="sm-logo.png" alt="S.M. Technologies Logo" class="partnership-logo" />
+        <figcaption><strong>S.M. Technologies</strong> — A 3D animation powerhouse providing joint funding and programming expertise.</figcaption>
+      </figure>
+      <p><a href="seam.html" role="button">Explore S.E.A.M. Technologies →</a></p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form class="grid">
+        <input type="text" name="name" placeholder="Your Name" aria-label="Name" required />
+        <input type="email" name="email" placeholder="Your Email" aria-label="Email" required />
+        <textarea name="message" placeholder="Your Message" aria-label="Message" required></textarea>
+        <button type="submit" onclick="event.preventDefault()">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <small>
+      <a href="index.html">Home</a> • 
+      <a href="store.html">Store</a> • 
+      <a href="labs.html">Labs</a> • 
+      <a href="seam.html">S.E.A.M.</a>
+    </small>
+  </footer>
+
+</body>
+</html>
